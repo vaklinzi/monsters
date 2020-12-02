@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+h1, h2 {
+  font-family: 'Bigelow Rules', cursive;
+}
+
+h1 {
+  font-size: 72px;
+  color: #0ccac4
+}
+
+h2 {
+  font-size: 40px;
+}

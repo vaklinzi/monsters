@@ -1,10 +1,11 @@
 import React from 'react';
+import './SearchField.css';
 
-export const SearchField = ({ value, onChange }) => (
+export const SearchField = ({ placeholder, handleChange }) => (
   <input
+    className="search"
     type="search"
-    placeholder="search monsters"
-    onChange={(e) => onChange(e)}
-    value={value}
+    placeholder={placeholder}
+    onChange={handleChange}
   />
 );
